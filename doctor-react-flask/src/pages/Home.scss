@@ -1,0 +1,140 @@
+.home {
+    display: flex;
+    .homeContainer {
+        background-color: #fdfeff;
+
+        flex: 6;
+            .cardsContainer {
+                display: flex;
+                justify-content: center;
+
+                .cards {
+                    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                    padding: 10px 10px 10px 10px;
+                    border-radius: 18px;
+                    margin: 0;
+                    font-size: 23px;
+                    margin: 10px;
+                    height: 160px;
+                    flex: 6.5;
+                    background-color: white;
+
+                    .title {
+
+                    }
+
+                    .thePost {
+                        display: flex;
+                        .centeringImage {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding-right: 20px;
+                        }
+                        .secondPart {
+                            position: relative;
+                            padding-right: 10px;
+    
+                            .title {
+                                font-size: 25px;
+                            }
+    
+                            .description {
+                                font-size: 14px;
+                                letter-spacing: 1px;
+                                padding-top: 15px;
+                                line-height: 1.5;
+                            }
+    
+                            .bottom {
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                font-size: 12px;
+                                padding-bottom: 5px;
+                                letter-spacing: 1.1px;
+                            }
+                        }
+                    }
+                }
+
+                .cards1 {
+                    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                    padding: 10px 10px 10px 10px;
+                    border-radius: 18px;
+                    margin: 0;
+                    font-size: 23px;
+                    margin: 10px;
+                    height: 160px;
+                    flex: 3.5;
+                    background-color: white;
+
+                    .title {
+                        padding-top: 5px;
+                        padding-left: 5px;
+                        font-weight: bold;
+                        line-height: 2px;
+                    }
+
+                    .triple {
+                        display: flex;
+                        justify-content: space-between;
+                        
+                        .tripleFlex {
+                            display: flex;
+
+                            .flexer {
+                                display: flex;
+                                flex-direction: column;
+                            }
+
+                            .titler {
+                                margin-top: 40px;
+                                font-size: 14px;
+                                padding: none;
+                            }
+
+                            .titlerB {
+                                margin-top: 50px;
+                                font-size: 10px;
+                                padding: none;
+                            }
+
+                            .titler1 {
+                                font-size: 14px;
+                                padding: none;
+                            }
+
+                            .titler1P {
+                                padding-top:50px;
+                                font-size: 10px;
+                            }
+
+                            .titler2 {
+                                margin-top: 40px;
+                                font-size: 14px;
+                                padding: none;
+                            }
+
+                            .titler2B {
+                                margin-top: 50px;
+                                font-size: 10px;
+                                padding: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .widgets, .charts{
+                display: flex;
+                padding: 10px;
+                gap: 20px;
+            }
+    
+            .charts{
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        
+    }
+}
